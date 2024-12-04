@@ -1,0 +1,57 @@
+@use "modal";
+
+$primary-color: #4CAF50;
+$secondary-color: #FF5722;
+$bg-color: #f4f4f4;
+$text-color: #333;
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $bg-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: $primary-color;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: $text-color;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: $secondary-color;
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}

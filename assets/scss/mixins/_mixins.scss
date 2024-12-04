@@ -1,0 +1,12 @@
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+@mixin container {
+  width: min(100% - 30px, 1200px);
+
+  margin-inline: auto;
+}
