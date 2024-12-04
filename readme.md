@@ -30,7 +30,7 @@
 Клонуйте репозиторій на свій локальний комп'ютер:
 
 ```bash
-git clone https://github.com/ваш-логін/назва-репозиторію.git
+git clone https://github.com/guboss3214/Gulp.git
 ```
 
 ### Крок 3: Встановлення залежностей
